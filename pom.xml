@@ -26,7 +26,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupid>org.apache.maven.plugins</groupid>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>1.8</source>
@@ -43,7 +43,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>io.sage.thinkinjava.ch07.polymorphism.Test</mainClass>
+                            <mainClass>io.sage.tij.ch07.polymorphism.Test</mainClass>
                         </manifest>
                         <manifestentries>
                             <class-paht>./</class-paht>
